@@ -48,7 +48,7 @@ From the data, we can turn it to a blob, then trigger the \`click\` event as des
 The following sample code creates a blob of JSON and downloads it:
 
 ~~~ javascript
-const data = JSON.stringify({ 'message': 'Hello Word' });
+const data = JSON.stringify({ 'message': 'Hello World' });
 
 const blob = new Blob([data], { type: 'application/json' });
 
